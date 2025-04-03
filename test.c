@@ -8,12 +8,14 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 #define KMS_PER_MILE 1.60934
 
 int main(int argc, char **argv){
     double miles, kms;
     printf("Please enter miles : \n");
     scanf("%lf", &miles);
+    miles = fabs(miles);
     kms = KMS_PER_MILE * miles;
     printf("%f miles is equal to %f kilometers\n", miles, kms);
 }
