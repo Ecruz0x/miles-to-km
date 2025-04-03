@@ -3,7 +3,7 @@
  * Date : 2025/04/03
  * Email : abdelhaqnaciri0@gmail.com
  *
- * The program below is a C code that converts miles to kilometers.
+ * The program below is a C code that converts miles to kilometers .
 */
 
 #include <stdio.h>
